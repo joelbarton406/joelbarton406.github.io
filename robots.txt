@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /resume/
+Disallow: /projects/
+Disallow: /personal/
