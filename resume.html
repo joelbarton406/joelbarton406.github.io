@@ -82,7 +82,10 @@
       <div class="flex-container">
         <div class="resume-container">
           <div class="download-container">
-            <a href="/public/Joel_Barton_Resume.pdf" target="_blank">
+            <a
+              href="https://drive.google.com/uc?export=download&id=14FTWrC71pSWCMCI3x9PjiZp3dMg8Jiis"
+              target="_blank"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -95,12 +98,41 @@
                   d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293z"
                 />
                 <path
-                  d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"
+                  d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"
                 />
               </svg>
             </a>
           </div>
+
+          <h3>👤 Profile</h3>
+          <p>
+            I am a Software Engineer proficient in numerous tools in the
+            JavaScript/TypeScript ecosystem. I thrive on tackling complex
+            problems that deliver joy to users and draw inspiration from mission
+            driven work. Most recently, I created Harrier, an open-source
+            framework that helps developers achieve faster CI/CD builds in
+            GitHub Actions. In my spare time, I enjoy running and am currently
+            training for my third trail ultra marathon.
+          </p>
+
           <h3>💼 Experience</h3>
+
+          <div class="flex-container subheading-container">
+            <div class="flex-container position-container">
+              <h4>Mozilla</h4>
+              <p class="title">Open Source Contributor</p>
+            </div>
+            <p class="date">March 2025 - present</p>
+          </div>
+          <p>
+            Landed multiple UI patches in Firefox Desktop's DevTools,
+            contributing to improvements in the Network Monitor; closely
+            collaborated with core Mozilla team engineers across UX,
+            TabbedBrowser, and platform teams, gaining experience with
+            large-scale code review with Phabricator, remote builds, and
+            pre-landing validation through the Try server.
+          </p>
+
           <div class="flex-container subheading-container">
             <div class="flex-container position-container">
               <h4>Harrier</h4>
@@ -109,7 +141,7 @@
                 class="title link"
                 target="_blank"
               >
-                Software Engineer / Co-Creator
+                Open Source Software Engineer
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -129,16 +161,15 @@
                 </svg>
               </a>
             </div>
-            <p class="date">Aug 2024 - Dec 2024</p>
+            <p class="date">September 2024 - December 2024</p>
           </div>
-          <p>
-            Developed an open-source framework for accelerating CI/CD builds in
-            GitHub Actions workflows by automating the deployment of an
-            alternative runner infrastructure with a dedicated cache solution
-            into users' AWS environment (Technologies: Node.js, TypeScript, AWS
-            SDK for JavaScript, Bash, YAML)
-          </p>
           <ul class="bullets">
+            <li>
+              Developed framework that facilitates faster CI builds in GitHub
+              Actions workflows by automating the deployment of an alternative
+              runner infrastructure with a dedicated cache solution into users'
+              AWS environment.
+            </li>
             <li>
               Designed VM architecture to provision ephemeral runner servers
               into an isolated virtual private cloud, providing users with a
@@ -147,23 +178,18 @@
             <li>
               Created optimized caching solution targeting node modules to
               minimize redundant dependency installations across consecutive
-              workflow executions achieving up to 90% reduction in installation
+              workflow executions achieving up to ~80% reduction in installation
               time.
             </li>
             <li>
               Implemented minimal footprint and robust security posture for
-              Harrier, using an isolated VPC, OIDC, AWS Secrets Manager, and
+              Harrier, utilizing an isolated VPC, OIDC, AWS Secrets Manager, and
               strict IAM policies.
             </li>
             <li>
               Streamlined setup experience by providing a single YAML file that
               stands up the Harrier infrastructure within users' AWS environment
               with minimal effort.
-            </li>
-            <li>
-              OTHER BULLET Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Eius vero maxime dignissimos, expedita quo aperiam impedit
-              non accusantium aut porro eveniet reiciendis repellat ab rem.
             </li>
             <li>
               Authored comprehensive technical
@@ -195,12 +221,12 @@
               design, and engineering challenges.
             </li>
             <li>
-              Collaborated with remote team spanning three time zones, following
-              Agile methodologies and adhering to Git best practices.
+              Collaborated with fully remote team following Agile methodologies
+              and adhering to Git best practices.
             </li>
             <li>
               Led the design, development, implementation, and deployment
-              efforts for the Harrier website.
+              efforts for the Harrier case study website.
             </li>
             <li>
               Created comprehensive system architecture diagrams and visual aids
@@ -208,139 +234,64 @@
               and implementation phases.
             </li>
           </ul>
-          <div class="flex-container subheading-container">
-            <div class="flex-container position-container">
-              <h4>Projects</h4>
-            </div>
-          </div>
+
+          <h3>🚀 Projects</h3>
           <ul class="bullets">
             <li>
-              <b>Request Bin</b>: Built a tool for inspecting webhooks and HTTP
-              requests enabling users to inspect incoming HTTP requests. Managed
-              the backend using Node.js and Express.js for API handling, MongoDB
-              and PostgreSQL for data storage, and deployed on a Digital Ocean
-              Droplet VPS with Nginx as a reverse proxy. Integrated a
-              user-friendly dashboard to provide real-time request inspection
-              for seamless debugging
+              <b>Hooky</b>: A RequestBin-inspired tool for inspecting and
+              debugging webhooks
             </li>
             <li>
-              <b>Engagements</b>: Web application for managing and tracking
-              professional engagements (Technologies: Express, Postgres, React,
-              TypeScript) wook pair project, SSE, GC, Gmail, Google Drive,
-              Dashboard
-            </li>
-            <li><b>NoteThing</b>: 189 Ruby Project</li>
-            <li>
-              <b>VoiceNotes</b>: That random toy project with voice to text.
+              <b>Engagements</b>: Web app for managing and tracking professional
+              engagements
             </li>
           </ul>
 
           <h3>🧑🏻‍💻 Skills</h3>
           <div class="flex-container skills-container">
             <div>
-              <h5>Languages, Frameworks, Libraries</h5>
+              <h5>Languages, Libraries, Frameworks</h5>
               <div>
-                JavaScript, Python, TypeScript, Ruby, SQL, Express, React,
-                Sinatra, Remix, jQuery, Jest, Material UI, Tailwindcss, RSpec,
-                Shadcn/ui, Handlebars, EJS, Pug, Mongoose, Zod
+                JavaScript, TypeScript, Python, Ruby, SQL, HTML/CSS, Express,
+                React, Sinatra, RR7, jQuery, Jest, Tailwind
               </div>
             </div>
             <div>
               <h5>Cloud</h5>
               <div>
                 AWS (Lambda, EC2, SSM, SDK, API Gateway, S3, EventBridge, VPC
-                Cloudwatch), DigitalOcean (Droplet VPS), Heroku, Fly.io
+                Cloudwatch), DigitalOcean (Droplet)
               </div>
             </div>
             <div>
-              <h5>Other</h5>
+              <h5>Miscellaneous</h5>
               <div>
-                Git/GitHub, Bash, Linux, PostgreSQL, MongoDB, MySQL, WebSocket,
-                SSE, Nginx, REST API, CI/CD, Web Sockets, VSCode, Docker
+                Git, Bash, Linux, MongoDB, MySQL, WebSocket, SSE, Nginx, REST
+                APIs, GHA, Web Sockets, VSCode, Docker
               </div>
             </div>
           </div>
+
           <h3>🎓 Education</h3>
           <div class="flex-container listing-container">
             <div class="flex-container position-container">
               <h5>Launch School</h5>
-              <p class="title">
-                Software Engineering & Full Stack Web Development
-              </p>
+              <p class="title">Full Stack Web Development</p>
             </div>
             <p class="date">2022 - 2024</p>
           </div>
-          <div>
-            Multi-year, mastery-based software engineering curriculum. Read more
-            at
-            <a
-              href="https://www.launchschool.com/employers"
-              class="link"
-              target="_blank"
-            >
-              launchschool.com/employers.
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="#B5BD9F"
-                class="bi bi-box-arrow-up-right"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"
-                />
-                <path
-                  fill-rule="evenodd"
-                  d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"
-                />
-              </svg>
-            </a>
-          </div>
+          <p>
+            16 course full-stack software development curriculum followed by 4
+            month intensive capstone
+          </p>
+
           <div class="flex-container listing-container">
             <div class="flex-container position-container">
               <h5>Whitman College</h5>
-              <p class="title">
-                B.A. in Religious Studies, Minor in Race and Ethnic Studies
-              </p>
+              <p class="title">B.A. Religious Studies</p>
             </div>
-            <p class="date">2015-2020</p>
+            <p class="date">2015 - 2020</p>
           </div>
-
-          <!-- <h3>📚 Certificates</h3>
-          <div class="flex-container listing-container">
-            <div class="flex-container position-container">
-              <h5>Cert 1</h5>
-              <p class="title">
-                <a
-                  href="https://cs50.harvard.edu/ai/2024/"
-                  class="link"
-                  target="_blank"
-                >
-                  CS50xAI Introduction to Artificial Intelligence with Python
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="#B5BD9F"
-                    class="bi bi-box-arrow-up-right"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"
-                    />
-                    <path
-                      fill-rule="evenodd"
-                      d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"
-                    />
-                  </svg>
-                </a>
-              </p>
-            </div>
-            <p class="date">2025</p>
-          </div> -->
         </div>
       </div>
     </main>
